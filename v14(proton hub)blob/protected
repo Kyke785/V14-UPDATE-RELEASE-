@@ -1,0 +1,180 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+local Window = Library.Main("protonv14.0 BETA","LeftAlt") -- change "LeftAlt" to the key that you want to hide the GUI
+
+--//tab
+local Tab = Window.NewTab("WELCOME!!!")
+
+--//section
+local Section = Tab.NewSection("INFORMATION OF CREATOR")
+
+--// Button
+Section.NewButton("@luascr on YT", function()
+    print(SUB)
+end)
+
+--// Button
+Section.NewButton("DEADHEADXD|luascriptsALTyoutube on ROBLOX!¡!", function()
+    -- code here
+end)
+
+--// Button
+Section.NewButton("vip panel by me XD", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyke785/ultravio/main/ulta",true))()
+end)
+
+--//tab
+local Tab = Window.NewTab("blox fruis")
+
+--//section
+local Section = Tab.NewSection("blox script")
+
+--// Button
+Section.NewButton("hoho hub mby", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+--//Toggles
+Section.NewToggle("", function(bool)
+    -- code here
+end, true) -- "true" is the default value of toggle
+
+Section.NewToggle("Disabled Toggle", function(bool)
+    -- code here
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local Tab = Window.NewTab("universal hacks")
+
+--//section
+local Section = Tab.NewSection("fly hack")
+
+--// Button
+Section.NewButton("fly gui v3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+--//section
+local Section = Tab.NewSection("universal")
+
+--// Button
+Section.NewButton("keyboard gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+--//section
+local Section = Tab.NewSection("piano games")
+
+--// Button
+Section.NewButton("auto piano player", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VBfHKC86WxpXyIgr/iwiwiejsaIwidi/main/iaowjdhd.lua", true))()
+end)
+
+--//tab
+local Tab = Window.NewTab("BACK DOOR")
+
+--//section
+local Section = Tab.NewSection("GOOFY")
+
+--// Button
+Section.NewButton("BACK DOOR SCRIPT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+end)
+
+--//tab
+local Tab = Window.NewTab("updates")
+
+--//section
+local Section = Tab.NewSection("updateV10")
+-
+--// Button
+Section.NewButton("OP UPDATE WITH A NEW BACKDOOR", function()
+end)
+
+--//section
+local Section = Tab.NewSection("updateV14")
+-
+--// Button
+Section.NewButton("BEST AND SMOOTH UPDATE FOR PZ AND MOBILE", function()
+end)
+
+--//section
+local Section = Tab.NewSection("updateV15")
+-
+--// Button
+Section.NewButton("upcoming update with vip and best smooth working hub", function()
+end)
+--//tab
+local Tab3 = Window.NewTab("BROOKHAVEN")
+
+--//section
+local Section3 = Tab3.NewSection("BROOKHAVEN THINGS")
+
+--// Button
+Section3.NewButton("DEEZNUT HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Devkigz/v5/main/v5hub", true))()
+end)
+
+--// Button
+Section3.NewButton("icehub HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven", true))()
+end)
+
+--//Toggles
+Section3.NewToggle("TRY?!?!", function(bool)
+    Rayfield:Notify({
+        Title = "e",
+        Content = "Notification Content",
+        Duration = 6.5,
+        Image = 4483362458,
+        Actions = {
+            Ignore = {
+                Name = "e!",
+                Callback = function()
+                    print("e")
+                end
+            },
+        },
+    })
+end, true) -- "true" is the default value of toggle
+
+Section3.NewToggle("Disabled Toggle", function(bool)
+    -- code here
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local Tab4 = Window.NewTab("PRISON LIFE TROLL 😆")
+
+--//section
+local Section4 = Tab4.NewSection("CAN GET KICK∆")
+
+--// Button
+Section4.NewButton("pristine prison life", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/d5BS5qiX"))()
+end)
+
+--//Toggles
+Section4.NewToggle("Enabled Toggle", function(bool)
+    -- code here
+end, true) -- "true" is the default value of toggle
+
+Section4.NewToggle("Disabled Toggle", function(bool)
+    -- code here
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local Tab = Window.NewTab("CREDIT")
+
+--//section
+local Section = Tab.NewSection("CREDITS TO @luascripts")
+
+--//tab
+local Tab = Window.NewTab("OTHERS OP SCRIPT")
+
+--//section
+local Section = Tab.NewSection("OP HUBS , GUI_S")
+
+--// Button
+Section.NewButton("Aim bot", function()
+    -- your aimbot code here
+end)
